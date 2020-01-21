@@ -1,5 +1,5 @@
 import React from 'react';
-// import Post from "./Post";
+
 
 const LikeSection = props => {
   return (
@@ -17,7 +17,7 @@ const LikeSection = props => {
     </div>
     <p className="like-number">
       
-      likes</p>
+     {props.likes} likes</p>
 </div>
   )
 };
