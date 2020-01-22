@@ -15,7 +15,7 @@ const Post = props => {
   );
 
   const incrementLikes = () => {
-
+    setLikes(likes => likes+1);
   }
 
   return (
